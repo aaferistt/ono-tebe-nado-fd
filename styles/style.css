@@ -22,12 +22,18 @@ body {
 .header__menu {
   display: flex;
   justify-content: flex-start;
+  width: 391px;
+  height: 22px;
+  
 }
 
 .header__links-list {
   display: flex;
   gap: 45px;
   list-style: none;
+  width: 391px;
+  height: 22px;
+  margin-left: 50px;
 }
 
 .header__links-list-item {
@@ -37,10 +43,15 @@ body {
 }
 
 .header__link {
-  color: #000;
+  font-family: 'Raleway';
+  font-weight: 400;
   font-size: 18px;
+  color: #000;
   text-decoration: none;
+  width: 67px;
+  height: 21px;
 }
+
 
 .header__link_active {
   font-weight: bold;
@@ -58,19 +69,34 @@ body {
 .header__logo-image {
   width: 124px;
   height: 95px;
+  margin-bottom: 103px;
+  margin-left: 37px;
 }
 
 /* Адрес */
 .header__address {
   justify-self: end;
-  width: 236px;
+  width: 240px;
+  height: 98px;
   max-width: 240px;
-  height: 49px;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
+  margin-right: 50px;
+  margin-left: 184px;
+}
+
+.amsterdam {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 135%;
+  color: #000;
+  width: 236px;
+  height: 49px;
 }
 
 .header__address a {
@@ -232,6 +258,8 @@ body {
   margin-top: 180px;
   margin-bottom: 120px;
   padding: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .lots__card-list {
@@ -401,12 +429,13 @@ body {
 .about {
   display: grid;
   grid-template-columns: 300px 1fr;
-  gap: 20px;
   width: 1052px;
   height: 595px;
   margin-top: 120px;
   margin-bottom: 180px;
   padding: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .about__logo {
