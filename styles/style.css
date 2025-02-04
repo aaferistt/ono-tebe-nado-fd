@@ -2,6 +2,9 @@
 body {
   color: #000;
   background-color: #fff;
+  width: 1100px;
+  height: 3028px;
+  margin: auto;
 }
 
 /* Шапка */
@@ -11,7 +14,7 @@ body {
   align-items: center;
   width: 1100px;
   height: 293px;
-  padding: 20px 0;
+  padding: 0;
   background-color: #fff;
 }
 
@@ -85,7 +88,7 @@ body {
   position: relative;
   width: 1100px;
   height: 757px;
-  padding: 100px 0;
+  padding: 0;
   text-align: center;
   background: url("../images/cover.jpg") center/cover no-repeat;
 }
@@ -111,12 +114,12 @@ body {
   color: #fff;
   font-weight: bold;
   font-size: 36px;
+  margin-bottom: 106px;
 }
 
 .cover__description {
   position: relative;
   z-index: 2;
-  margin-top: 20px;
   color: #fff;
   font-family: "Raleway";
   font-weight: 400;
@@ -124,24 +127,26 @@ body {
   font-style: normal;
   line-height: 127%;
   text-transform: uppercase;
+  width: 1000px;
+  height: 51px;
 }
 
 .cover__description-text {
   position: absolute;
-  top: 550px;
-  left: 55px;
+  margin-left: 50px;
   z-index: 2;
   width: 637px;
   height: 28px;
   line-height: 28px;
-  word-spacing: 1.1em;
+  word-spacing: 0.9em;
   white-space: nowrap;
+  margin-top: 668px;
 }
 
 .cover__bet-button-container {
   position: absolute;
-  top: 535px;
-  left: 795px;
+  margin-top: 656px;
+  margin-left: 794px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,6 +167,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+  padding: 0;
 }
 
 .button-text {
@@ -170,7 +176,7 @@ body {
   align-items: center;
   width: 193px;
   height: 28px;
-  padding: 5px 0;
+  padding: 0;
   color: #fff;
   font-family: "Raleway";
   font-weight: 500;
@@ -223,9 +229,9 @@ body {
   flex-direction: column;
   width: 1052px;
   height: 723px;
-  margin-top: 124px;
+  margin-top: 180px;
   margin-bottom: 120px;
-  padding: 50px 0;
+  padding: 0;
 }
 
 .lots__card-list {
@@ -398,9 +404,9 @@ body {
   gap: 20px;
   width: 1052px;
   height: 595px;
-  margin-top: 124px;
+  margin-top: 120px;
   margin-bottom: 180px;
-  padding: 50px 0;
+  padding: 0;
 }
 
 .about__logo {
@@ -490,7 +496,7 @@ body {
   align-items: flex-start;
   width: 1100px;
   height: 180px;
-  padding: 20px;
+  padding: 0;
   color: #000;
   text-align: center;
   background-color: #fff;
@@ -563,9 +569,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin: 0;
   padding: 0;
   list-style: none;
+  width: 164px;
+  height: 64px;
+  margin-right: 140px;
 }
 
 .footer__menu-list-item {
@@ -620,6 +628,8 @@ body {
 
 .footer__social-list-item {
   display: inline-block;
+  width: 48px;
+  height: 48px;
 }
 
 .footer__social-link {
@@ -632,9 +642,4 @@ body {
   width: 48px;
   height: 48px;
   object-fit: contain;
-}
-
-.footer__social-list-item {
-  width: 48px;
-  height: 48px;
 }
