@@ -231,11 +231,9 @@ body {
 .lots__card-list {
   display: flex;
   justify-content: flex-start;
-  justify-content: space-between;
   gap: 25px;
   width: 1052px;
   height: 723px;
-  list-style: none;
   list-style: none;
 }
 
@@ -457,7 +455,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  line-height: 120%;
 }
 
 .about__text p {
@@ -516,7 +513,6 @@ body {
 
 .address a {
   color: #000;
-  color: #000;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
@@ -546,7 +542,6 @@ body {
   color: #000;
   font-family: "Raleway";
   font-weight: 400;
-  font-weight: normal;
   font-size: 18px;
   font-style: normal;
   line-height: 135%;
@@ -558,7 +553,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   width: 164px;
   height: 64px;
   margin-left: 154px;
