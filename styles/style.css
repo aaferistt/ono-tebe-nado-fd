@@ -169,9 +169,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 256px;
+  /* width: 256px; */
   padding-bottom: 50px;
-  padding-right: 50px;
+  /* padding-right: 50px; */
+  padding-top: 656px;
+  padding-left: 794px;
   float: right;
   /* position: absolute;
   bottom: 0;
