@@ -42,3 +42,8 @@ button {
   width: 256px;
   height: 51px;
 }
+
+.nav {
+  padding: 0;
+  gap: 0;
+}

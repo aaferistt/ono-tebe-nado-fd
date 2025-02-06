@@ -13,7 +13,6 @@ body {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1100px;
-  height: 293px;
   padding: 0;
   background-color: #fff;
 }
@@ -25,13 +24,20 @@ body {
   width: 391px;
   height: 22px;
   white-space: nowrap;
+  padding: 0;
   margin-left: 50px;
+  margin-right: 37px;
+  margin-top: 133px;
+  margin-bottom: 138px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 45px;
+  gap: 30px;
   list-style: none;
+  width: 391px;
+  height: 22px;
+  white-space: nowrap;
 }
 
 .header__links-list-item {
@@ -67,8 +73,6 @@ body {
 .header__logo-image {
   width: 148px;
   height: 105px;
-  margin-bottom: 103px;
-  margin-left: 37px;
 }
 
 /* Адрес */
@@ -463,14 +467,14 @@ body {
 .about__column {
   width: 693px;
   height: 449px;
+  margin-left: 70px;
+  margin-top: 133px;
 }
 
 .about__title {
   width: 291px;
   height: 47px;
-  margin-top: 133px;
   margin-bottom: 100px;
-  margin-left: 72px;
   color: #000;
   font-family: "Raleway";
   font-weight: bold;
@@ -498,22 +502,27 @@ body {
   line-height: 120%;
 }
 
-.about__text p:nth-child(2) {
-  width: 693px;
-}
-
-.about__text p:nth-child(3) {
-  width: 693px;
-  height: 168px;
-}
-
 .about__text p:nth-child(1) {
   width: 688px;
   height: 120px;
 }
 
+.about__text p:nth-child(2) {
+  width: 693px;
+}
+
 .about__text p:nth-of-type(2) {
   margin-bottom: 20px;
+}
+
+.about__text p:nth-child(3) {
+  width: 693px;
+  height: 73px;
+}
+.about__text p:nth-child(4) {
+  width: 693px;
+  height: 100px;
+  margin-top: 0;
 }
 
 /* Footer */
@@ -527,7 +536,7 @@ body {
   color: #000;
   text-align: center;
   background-color: #fff;
-  grid-gap: 20px;
+  /* grid-gap: 20px; */
 }
 
 /* Address */
@@ -535,6 +544,7 @@ body {
   width: 265px;
   height: 98px;
   margin-left: 50px;
+  margin-right: 154px;
   color: #000;
   font-family: "Raleway";
   font-weight: 400;
@@ -588,7 +598,7 @@ body {
   align-items: center;
   width: 164px;
   height: 64px;
-  margin-left: 154px;
+  /* margin-left: 150px; */
 }
 
 .footer__menu-list {
@@ -600,7 +610,6 @@ body {
   list-style: none;
   width: 164px;
   height: 64px;
-  margin-right: 140px;
 }
 
 .footer__menu-list-item {
@@ -648,8 +657,9 @@ body {
   width: 240px;
   height: 48px;
   margin-right: 50px;
-  margin-left: 177px;
   margin-bottom: 131px;
+  margin-left: auto;
+  margin-top: 1px;
   padding: 0;
   list-style: none;
 }
