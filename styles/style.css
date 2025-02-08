@@ -165,13 +165,13 @@ body {
 }
 
 .cover__description-text {
-  margin-top: 14px;
-  margin-left: 50px;
-  margin-right: 105px;
-  line-height: 28px;
-  white-space: nowrap;
   position: relative;
+  margin-top: 14px;
+  margin-right: 105px;
+  margin-left: 50px;
+  line-height: 28px;
   word-spacing: 19px;
+  white-space: nowrap;
 }
 
 .cover__bet-button-container {
@@ -424,8 +424,8 @@ body {
   justify-content: center;
   align-items: flex-start;
   width: 164px;
-  margin-bottom: 115px;
   margin-top: 1px;
+  margin-bottom: 115px;
   padding: 0;
   list-style: none;
 }
